@@ -1,0 +1,20 @@
+[MAIN]
+ignore-patterns=build,dist,.venv,venv,node_modules,__pycache__
+ignored-modules=migrations,settings
+
+[MESSAGES CONTROL]
+disable=
+    missing-docstring,
+    line-too-long,
+    import-error
+
+[FORMAT]
+max-line-length=120
+
+[DESIGN]
+max-attributes=15
+max-public-methods=20
+max-returns=10
+
+[SIMILARITIES]
+min-similarity-lines=10

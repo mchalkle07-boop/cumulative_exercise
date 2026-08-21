@@ -1,3 +1,9 @@
 fastapi
 uvicorn
 requests
+black
+mypy
+pylint
+pytest
+httpx
+httpx2
