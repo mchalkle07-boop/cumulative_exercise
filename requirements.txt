@@ -5,4 +5,5 @@ black
 mypy
 pylint
 pytest
+httpx
 httpx2
